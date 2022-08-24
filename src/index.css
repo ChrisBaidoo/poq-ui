@@ -6,8 +6,57 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.centre {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.row {
+    background-color: #f5f5fa;
+  }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  .selectAllCheckbox {
+      margin-bottom: 60px;
+  }
+
+.priceWas {
+    color: red;
+    text-decoration: line-through;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.checkBox {
+    position: relative;
+    top: 50px;
+    left: 20px;
+    z-index: 1;
+}
+
+.promo{
+    color:white;
+    background-color: red;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    opacity: 0.5;
+    position: relative;
+    bottom: 50px;
+}
+
+.inStock{
+    color: green;
+}
+
+.lowOnStock{
+    color: orange;
+    margin-top: 10px;
+}
+
+.outOfStock{
+    color: red;
 }
